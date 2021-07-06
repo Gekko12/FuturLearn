@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+:root {
+  --logocolor: #4267B2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(231, 238, 239, 0.9);
+}
+
+.auth {
+  box-sizing: content-box;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* border: solid 2pt grey; */
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.auth-logo {
+  display: inline-flex;
+  font-family: 'Otomanopee One', sans-serif;
+  color: var(--logocolor);
+  letter-spacing: 1.4px;
+  padding: 0px 24px;
+  border: solid 2px var(--logocolor);
+  box-shadow: 9px 5px 8px;
+  cursor: pointer;
+  align-content: center;
+  margin: 32px 0px 32px 40px;
+  background-color: #fff;
+}
+
+#p1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 36px 0px 8px 20px;
+}
+
+#p2 {
+  font-size: smaller;
+  color: rgb(43, 42, 42);
+  margin-left: 32px;
+}
+
+.auth-form {
+  display: inline-block;
+  /* border: solid 2pt grey; */
+  justify-content: center;
+  width: 80%;
+  margin-top: 28px;
+}
+
+.auth-form #entries {
+  padding: 4px;
+  /* border: solid grey 1px; */
+  justify-content: center;
+  display: flex;
+}
+
+.auth-form img {
+  width: 32px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+#input {
+  background-color: #f3f7f7;
+  border: solid lightgray 2px;
+  margin: 4px;
+  height: 50px;
+  width: 400px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 20px;
+}
+
+#create-account {
+  margin: 12px 0px 12px 52px;
+  font-size: 20px;
+  padding: 4px 8px;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#create-account:hover {
+  background-color: #4ba838;
+}
+
+#login-butt {
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20px 0px 12px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 4px 36px;
+  background-color: rgba(29, 119, 237, 0.9);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+}
+
+#login-butt:hover {
+  background-color: #0a74ff;
+}
