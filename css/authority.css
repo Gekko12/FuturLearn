@@ -11,6 +11,8 @@
   box-sizing: border-box;
   text-align: center;
   background-color: rgba(231, 238, 239, 0.9);
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .auth {
@@ -38,13 +40,13 @@
   background-color: #fff;
 }
 
-#p1 {
+.p1 {
   font-size: 24px;
   font-weight: 500;
   margin: 36px 0px 8px 20px;
 }
 
-#p2 {
+.p2 {
   font-size: smaller;
   color: rgb(43, 42, 42);
   margin-left: 32px;
@@ -71,7 +73,7 @@
   margin-right: 20px;
 }
 
-#input {
+.input {
   background-color: #f3f7f7;
   border: solid lightgray 2px;
   margin: 4px;
@@ -81,7 +83,7 @@
   font-size: 20px;
 }
 
-#create-account {
+.create-account {
   margin: 12px 0px 12px 52px;
   font-size: 20px;
   padding: 4px 8px;
@@ -92,11 +94,11 @@
   cursor: pointer;
 }
 
-#create-account:hover {
+.create-account:hover {
   background-color: #4ba838;
 }
 
-#login-butt {
+.login-butt {
   display: flex;
   position: relative;
   left: 50%;
@@ -115,6 +117,6 @@
   justify-content: center;
 }
 
-#login-butt:hover {
+.login-butt:hover {
   background-color: #0a74ff;
 }

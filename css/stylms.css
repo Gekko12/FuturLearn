@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 :root {
   --logocolor: #4267B2;
 }
@@ -52,19 +53,19 @@ main {
   /* border: solid 2pt grey; */
 }
 
-.hero-content #p1 {
+.hero-content .p1 {
   font-size: 72px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.8);
 }
 
-.hero-content #p2 {
+.hero-content .p2 {
   font-size: 20px;
   padding-top: 10px;
   color: rgba(0, 0, 0, 0.9);
 }
 
-.hero-content #signup-butt {
+.hero-content .signup-butt {
   margin: 56px 12px 0px 0px;
   font-size: 28px;
   font-weight: 500;
@@ -76,11 +77,11 @@ main {
   cursor: pointer;
 }
 
-.hero-content #signup-butt:hover {
+.hero-content .signup-butt:hover {
   background-color: #4ba838;
 }
 
-.hero-content #login-butt {
+.hero-content .login-butt {
   margin: 56px 12px 0px 0px;
   font-size: 28px;
   font-weight: 500;
@@ -93,7 +94,7 @@ main {
   cursor: pointer;
 }
 
-.hero-content #login-butt:hover {
+.hero-content .login-butt:hover {
   background-color: #0a74ff;
 }
 
