@@ -71,6 +71,9 @@
 .auth-form img {
   width: 32px;
   align-self: center;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
   margin-right: 20px;
 }
 
@@ -113,9 +116,7 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  align-self: center;
-  justify-self: center;
-  justify-content: center;
+  
 }
 
 .login-butt:hover {
