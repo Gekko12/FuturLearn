@@ -16,7 +16,7 @@ header {
   padding: 16px 20px;
   z-index: 1000;
   display: flex;
-/*justify-content: center;*/
+  /*justify-content: center;*/
 }
 
 header .logo {
@@ -27,7 +27,7 @@ header .logo {
   margin-left: 40px;
   padding: 0px 24px;
   border: solid 2px var(--logocolor);
-  box-shadow: 9px 5px 8px ;
+  box-shadow: 9px 5px 8px;
   cursor: pointer;
 }
 
@@ -35,10 +35,11 @@ main {
   box-sizing: content-box;
   display: flex;
   width: 100%;
-  height: auto;
-  padding: 24px;
+  padding: 16px;
+  padding-bottom: 0px;
   margin: 12px;
- /* border: solid 2pt grey; */
+  margin-bottom: 4px;
+  /* border: solid 2pt grey; */
 }
 
 .hero-content {
@@ -46,9 +47,9 @@ main {
   float: left;
   width: 40%;
   padding: 24px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 20px;
- /*border: solid 2pt grey;*/
+  /* border: solid 2pt grey; */
 }
 
 .hero-content #p1 {
@@ -64,7 +65,7 @@ main {
 }
 
 .hero-content #signup-butt {
-  margin: 56px 12px 8px 0px;
+  margin: 56px 12px 0px 0px;
   font-size: 28px;
   font-weight: 500;
   padding: 4px 20px;
@@ -80,7 +81,7 @@ main {
 }
 
 .hero-content #login-butt {
-  margin: 56px 12px 8px 0px;
+  margin: 56px 12px 0px 0px;
   font-size: 28px;
   font-weight: 500;
   color: #fff;
@@ -99,11 +100,11 @@ main {
 .hero-image {
   box-sizing: content-box;
   width: 40%;
-  padding: 24px;
-  margin-top: 40px; 
+  padding: 4px;
+  margin-top: 20px;
   margin-left: 20px;
   float: right;
-  /*border: solid 2pt grey;*/
+  /* border: solid 2pt grey; */
 }
 
 .hero-image img {
@@ -116,3 +117,11 @@ main {
   transform: scale(1.01) translateY(-12px);
 }
 
+footer {
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  color: grey;
+  margin-left: 80px;
+  margin: 8px 0px 8px 0px;
+  justify-content: center;
+}
