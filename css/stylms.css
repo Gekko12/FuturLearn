@@ -12,16 +12,11 @@
 }
 
 header {
-  position: absolute;
-  top: 4px;
-  left: 80px;
   width: 100%;
   padding: 16px 20px;
-  margin: auto;
   z-index: 1000;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+/*justify-content: center;*/
 }
 
 header .logo {
@@ -29,23 +24,31 @@ header .logo {
   color: var(--logocolor);
   letter-spacing: 1.4px;
   margin-top: 16px;
+  margin-left: 40px;
+  padding: 0px 24px;
   border: solid 2px var(--logocolor);
   box-shadow: 9px 5px 8px ;
   cursor: pointer;
 }
 
-.hero-content {
-  display: flexbox;
+main {
   box-sizing: content-box;
-  position: absolute;
-  top: 108px;
-  left: 70px;
-  width: 580px;
-  height: 400px;
+  display: flex;
+  width: 100%;
+  height: auto;
   padding: 24px;
-  display: flexbox;
-  margin: 8px;
-  /* border: solid 2pt grey; */
+  margin: 12px;
+ /* border: solid 2pt grey; */
+}
+
+.hero-content {
+  box-sizing: content-box;
+  float: left;
+  width: 40%;
+  padding: 24px;
+  margin-top: 40px;
+  margin-left: 20px;
+ /*border: solid 2pt grey;*/
 }
 
 .hero-content #p1 {
@@ -61,7 +64,7 @@ header .logo {
 }
 
 .hero-content #signup-butt {
-  margin: 40px 10px 0px 0px;
+  margin: 56px 12px 8px 0px;
   font-size: 28px;
   font-weight: 500;
   padding: 4px 20px;
@@ -77,12 +80,13 @@ header .logo {
 }
 
 .hero-content #login-butt {
-  margin: 40px 10px 0px 0px;
+  margin: 56px 12px 8px 0px;
   font-size: 28px;
   font-weight: 500;
   color: #fff;
   padding: 4px 36px;
-  background-color: #1877f2;
+  /*background-color: #1877f2;*/
+  background-color: rgba(29, 119, 237, 0.9);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -94,18 +98,16 @@ header .logo {
 
 .hero-image {
   box-sizing: content-box;
-  position: absolute;
-  top: 108px;
-  left: 708px;
-  width: 480px;
-  height: 400px;
+  width: 40%;
   padding: 24px;
-  display: flexbox;
-  margin: 8px;
-  /* border: solid 2pt grey; */
+  margin-top: 40px; 
+  margin-left: 20px;
+  float: right;
+  /*border: solid 2pt grey;*/
 }
 
 .hero-image img {
+  max-width: 100%;
   transition: 3s;
   cursor: pointer;
 }
@@ -113,3 +115,4 @@ header .logo {
 .hero-image img:hover {
   transform: scale(1.01) translateY(-12px);
 }
+
