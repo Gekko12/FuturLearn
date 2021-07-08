@@ -14,23 +14,26 @@
     <a href="../index.html" style="text-decoration: none;">
       <h1 class='auth-logo'>FuturLearn</h1>
     </a>
-    
+
     <p class="p1">Login</p>
     <p class="p2">Learn on your own time from top</p>
     <p class="p2">universities and businesses.</p>
 
-    <div class="auth-form">
-      <div class="entries">
-        <img src="../background/user.png">
-        <input class="input" type="text" placeholder="Your username or email">
-      </div>
+    <form method action="../pages/home.html">
+      <div class="auth-form">
+        <div class="entries">
+          <img src="../background/user.png">
+          <input class="input" type="text" placeholder="Your username or email" autocomplete="on" required>
+        </div>
 
-      <div id="entries">
-        <img src="../background/lock.png ">
-        <input class="input" type="password" placeholder="Your password">
+        <div id="entries">
+          <img src="../background/lock.png ">
+          <input class="input" type="password" placeholder="Your password" autocomplete="on" required>
+        </div>
       </div>
-    </div>
-    <a href="../pages/home.html" style="text-decoration: none;"><input class="login-butt" type="submit" value="Login"></a>
+      <a href="../pages/home.html" style="text-decoration: none;"><input class="login-butt" type="submit"
+          value="Login"></a>
+    </form>
   </div>
 </body>
 

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-
 :root {
   --logocolor: #4267B2;
 }
@@ -13,7 +12,6 @@
   text-align: center;
   background-color: rgba(231, 238, 239, 0.9);
   font-family: 'Poppins', sans-serif;
-
 }
 
 .auth {
@@ -87,6 +85,10 @@
   font-size: 20px;
 }
 
+.input:focus {
+  background-color: #fff;
+}
+
 .create-account {
   margin: 12px 0px 12px 52px;
   font-size: 20px;
@@ -116,7 +118,6 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  
 }
 
 .login-butt:hover {

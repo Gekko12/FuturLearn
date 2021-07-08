@@ -19,23 +19,26 @@
     <p class="p2">Learn on your own time from top</p>
     <p class="p2">universities and businesses.</p>
 
-    <div class="auth-form">
-      <div class="entries">
-        <img src="../background/user.png">
-        <input class="input" type="text" placeholder="First & Last name">
-      </div>
+    <form method action="../pages/home.html">
+      <div class="auth-form">
+        <div class="entries">
+          <img src="../background/user.png">
+          <input class="input" type="text" placeholder="First & Last name" required>
+        </div>
 
-      <div class="entries">
-        <img src="../background/email.png ">
-        <input class="input" type="email" placeholder="Email">
-      </div>
+        <div class="entries">
+          <img src="../background/email.png ">
+          <input class="input" type="email" placeholder="Email" autocomplete="on" required>
+        </div>
 
-      <div id="entries">
-        <img src="../background/lock.png ">
-        <input class="input" type="password" placeholder="Your password">
+        <div id="entries">
+          <img src="../background/lock.png ">
+          <input class="input" type="password" placeholder="Your password" required>
+        </div>
       </div>
-    </div>
-    <a href="../pages/home.html" style="text-decoration: none;"><input class="create-account" type="submit" value="Create An Account"></a>
+      <a href="../pages/home.html" style="text-decoration: none;"><input class="create-account" type="submit"
+          value="Create An Account"></a>
+    </form>
     <p class="p2" style="margin-left:52px;">Already on FuturLearn? <a href="login.html">Log in</a></p>
   </div>
 </body>
