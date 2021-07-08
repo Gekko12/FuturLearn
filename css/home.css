@@ -103,8 +103,7 @@ header .separator {
   height: 240px;
   position: relative;
   left: 5%;
-  filter: opacity(0.1);
-  filter:sepia(0.2);
+  filter: opacity(0.8);
   background-color: #002B3F;
   margin-top: 60px;
 }
