@@ -24,7 +24,7 @@ header .logo {
   font-family: 'Otomanopee One', sans-serif;
   color: var(--logocolor);
   letter-spacing: 1.4px;
-  margin-top: 16px;
+  margin-top: 8px;
   margin-left: 40px;
   padding: 0px 24px;
   border: solid 2px var(--logocolor);
