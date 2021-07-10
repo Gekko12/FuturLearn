@@ -113,7 +113,7 @@ header .separator {
 
 .container-outermost {
   padding: 50px 0;
-  /* border: solid 2px grey; */
+  /* border: solid 2px yellow; */
 }
 
 .container-1 {
@@ -163,7 +163,7 @@ header .separator {
 
 .grid-item img {
   display: block;
-  width: 70%;
+  width: 80%;
   height: 70%;
   padding: 8px;
   border-radius: 20%;
@@ -175,4 +175,109 @@ header .separator {
   padding: 8px 0;
   color: #414141;
   font-weight: 500;
+}
+
+.container-outermost .container-2 {
+  display: inline-block;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 12%;
+  /* border: solid 2px red; */
+}
+
+.container-2 h4 {
+  color: #2f3f50;
+  text-align: center;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+.container-2 p {
+  color: rgba(0, 0, 0, 0.788);
+}
+
+.container-2 .testimonial1 {
+  width: 40%;
+  height: 290px;
+  /* overflow: scroll; */
+  /* overflow-y: hidden;  */
+  /* overflow-x: hidden; */
+  float: left;
+  margin-top: 4%;
+  margin-left: 8%;
+  padding: 2%;
+  background-color: rgba(194, 197, 229, 0.137);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-2 .testimonial2 {
+  width: 40%;
+  height: 290px;
+  /* overflow: scroll; */
+  /* overflow-y: hidden;  */
+  /* overflow-x: hidden; */
+  float: right;
+  margin-top: 4%;
+  margin-right: 8%;
+  padding: 2%;
+  background-color: rgba(194, 197, 229, 0.137);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-2 .testinomial-img-name {
+  /* border: solid 2px yellowgreen; */
+  display: block;
+  width: 50% ;
+  float: left;
+  margin-top: 4px;
+}
+
+.testinomial-img-name  img{
+  width: 40%;
+  padding: 8px;
+  border-radius: 50%;
+  margin: 2% 0;
+  margin-right: 4%;
+  float: left;
+}
+
+.testinomial-img-name .p1 {
+  color: #2f3f50;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16%;
+}
+
+.testinomial-img-name .p2 {
+  color: #2f3f50;
+  font-size: 14px;
+}
+
+footer {
+  width: 100%;
+  background-color: #003bb1;
+  color: #fff;
+  margin-top: 8%;
+  padding-top: 8%;
+  text-align: center;
+}
+
+footer .p1 {
+  font-family: sans-serif;
+  font-size: 48px;
+}
+
+footer .p2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 12%;
+}
+
+footer .p3 {
+  padding: 2% 0;
 }

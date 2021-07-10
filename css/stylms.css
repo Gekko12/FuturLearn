@@ -39,7 +39,8 @@ main {
   padding: 16px;
   padding-bottom: 0px;
   margin: 12px;
-  margin-bottom: 4px;
+  margin: 4% 1%;
+  /* margin-bottom: 4px; */
   /* border: solid 2pt grey; */
 }
 
@@ -66,10 +67,10 @@ main {
 }
 
 .hero-content .signup-butt {
-  margin: 56px 12px 0px 0px;
+  margin: 8% 2% 0 0;
   font-size: 28px;
   font-weight: 500;
-  padding: 4px 20px;
+  padding: 0.5% 4%;
   background-color: #42b72a;
   color: #fff;
   border: none;
@@ -82,11 +83,11 @@ main {
 }
 
 .hero-content .login-butt {
-  margin: 56px 12px 0px 0px;
+  margin: 8% 2% 0 0;
   font-size: 28px;
   font-weight: 500;
   color: #fff;
-  padding: 4px 36px;
+  padding: 0.5% 6%;
   /*background-color: #1877f2;*/
   background-color: rgba(29, 119, 237, 0.9);
   border: none;
@@ -100,10 +101,10 @@ main {
 
 .hero-image {
   box-sizing: content-box;
-  width: 40%;
+  width: 50%;
   padding: 4px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 2%;
+  margin-left: 8%;
   float: right;
   /* border: solid 2pt grey; */
 }
@@ -119,10 +120,9 @@ main {
 }
 
 footer {
-  display: flex;
   font-family: 'Times New Roman', Times, serif;
   color: grey;
   margin-left: 80px;
   margin: 8px 0px 8px 0px;
-  justify-content: center;
+  text-align: center;
 }
