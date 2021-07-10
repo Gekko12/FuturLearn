@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+  --logocolor: #4267B2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  padding: 16px 20px;
+  z-index: 1000;
+  display: flex;
+  background-color: #fff;
+  /* justify-content: center; */
+}
+
+header .logo {
+  font-family: 'Otomanopee One', sans-serif;
+  color: var(--logocolor);
+  letter-spacing: 1.4px;
+  margin-left: 40px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  padding: 0px 24px;
+  border: solid 2px var(--logocolor);
+  box-shadow: 9px 5px 8px;
+  cursor: pointer;
+}
+
+header nav {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 440px;
+  /* border: solid 2px grey; */
+}
+
+header nav a {
+  padding: 8px 8px;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  /* color: rgba(1, 1, 1, 0.7); */
+  color: #002B3F;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #d94f5c;
+}
+
+header .separator {
+  position: absolute;
+  top: 85%;
+  left: 0%;
+  width: 100%;
+  height: 15%;
+  background-color: #002B3F;
+}
+
+.head {
+  box-sizing: content-box;
+  display: block;
+  margin: 12px 0px;
+  width: 100%;
+  padding: 160px 0;
+  background-color: #002B3F;
+  justify-content: center;
+  text-align: center;
+}
+
+.head .p1 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.head .p2 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.container-outer {
+  width: 100%;
+  /* border: solid 1px green; */
+  margin-top: 6%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.container-outer h4 {
+  text-align: center;
+  padding: 2% 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #002B3F;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
+}
+
+.container-outer .course {
+  /* border: solid 2px grey; */
+  display: block;
+  margin: 2% 8%;
+  margin-bottom: 4%;
+  height: 500px;
+}
+
+.container-outer .course-name {
+  font-size: 20px;
+  margin: 12px 0 8px 32px;
+  color: rgba(0, 0, 0, 0.829);
+  font-weight: 600;
+}
+
+.course iframe {
+  display: block;
+  float: left;
+  margin-left: 2%;
+  border: solid 12px lightgray;
+}
+
+.course .course-desc {
+  display: block;
+  float: right;
+  width: 35%;
+  height: 83%;
+  border: solid 2px lightgrey;
+  padding: 2%;
+  margin-right: 2%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.course .course-desc h3 {
+  color: rgba(0, 0, 0, 0.700);
+}
+
+.course .course-desc p {
+  color: rgba(0, 0, 0, 0.600);
+  text-align: justify;
+  margin: 4% 0%;
+  padding: 2%;
+  padding-left: 0;
+}
+
+.course .course-complete-butt {
+  display: block;
+  color: blue;
+  font-size: 20px;
+  margin-right: 2%;
+  margin-top: 4px;
+  float: right;
+}
+
+.course .course-complete-butt .mycheckbox {
+  width: 16px;
+  height: 16px;
+}
+
+footer {
+  width: 100%;
+  background-color: #003bb1;
+  color: #fff;
+  margin-top: 8%;
+  padding-top: 8%;
+  text-align: center;
+}
+
+footer .p1 {
+  font-family: sans-serif;
+  font-size: 48px;
+}
+
+footer .p2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 12%;
+}
+
+footer .p3 {
+  padding: 2% 0;
+}
