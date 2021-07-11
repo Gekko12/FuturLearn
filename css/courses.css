@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
   --logocolor: #4267B2;
 }
@@ -84,7 +83,6 @@ header .separator {
 
 .head .p1 {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
   text-align: center;
@@ -99,28 +97,17 @@ header .separator {
 .container-outer {
   width: 100%;
   /* border: solid 1px green; */
-  margin-top: 6%;
+  margin-top: 12%;
   display: block;
   align-items: center;
   justify-content: center;
   justify-items: center;
 }
 
-.container-outer h4 {
-  text-align: center;
-  padding: 2% 0;
-  font-size: 28px;
-  font-weight: 700;
-  color: #002B3F;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-underline-offset: 4px;
-}
-
 .container-outer .course {
   /* border: solid 2px grey; */
   display: block;
-  margin: 2% 8%;
+  margin: 0 8%;
   margin-bottom: 4%;
   height: 500px;
 }
