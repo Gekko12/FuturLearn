@@ -82,22 +82,37 @@ main {
 h2{
    text-align: center;
    margin: 5%;
+   margin-bottom: 1%;
    font-size: 32px;
    color: hotpink;
    text-decoration: underline;
 }
-  
+
+#box {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2px 8px;
+}
+
+.add-task {
+  padding: 2px 8px;
+  margin-top: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 ul {
-  text-align: lleft;
-  padding-left: 10%;
+  text-align: left;
   padding: 7%;
-  font-size: 2rem;
+  padding-left: 30%;
+  font-size: 1.2rem;
   list-style: circle;
+  list-style-position: inside;
 }
   
 li:hover{
   color:red;
-  transition: 1.5s ease;
+  transition: 1s ease;
   cursor: pointer;
 }
 
